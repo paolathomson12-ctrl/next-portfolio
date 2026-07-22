@@ -15,13 +15,13 @@ export default function MarketingLayout({ children }: MarketingLayoutProps) {
         <div className="flex h-20 items-center justify-between py-6">
           <MainNav items={routesConfig.mainNav}>
             <div className="flex items-center gap-3">
-              <GitHubStarBadge className="w-full justify-center" />
-              <ModeToggle />
+              {/* <GitHubStarBadge className="w-full justify-center" /> */}
+              {/* <ModeToggle /> */}
             </div>
           </MainNav>
           <nav className="flex items-center gap-5">
-            <GitHubStarBadge />
-            <ModeToggle />
+            {/* <GitHubStarBadge /> */}
+            {/* <ModeToggle /> */}
           </nav>
         </div>
       </header>
