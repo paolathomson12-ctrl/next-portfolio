@@ -30,5 +30,6 @@ export const siteConfig = {
   links: {
     twitter: "",
     github: "",
+    templateRepo: "",
   },
 };
