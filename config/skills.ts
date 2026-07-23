@@ -112,7 +112,7 @@ export const skillsUnsorted: skillsInterface[] = [
       "Develop web apps, automation tools, and data-driven solutions with Python for fast and flexible implementation.",
     rating: 2,
     icon: Icons.python,
-  },
+  }
 ];
 
 export const skills = skillsUnsorted
