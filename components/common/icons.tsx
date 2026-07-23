@@ -69,6 +69,8 @@ import {
   SiX,
 } from "react-icons/si";
 
+import { FaJava, FaPython } from "react-icons/fa6";
+
 export const Icons = {
   contact: Phone,
   gitRepoIcon: BookMarked,
@@ -130,6 +132,8 @@ export const Icons = {
   linkedin: SiLinkedin,
   userFill: BiSolidUser,
   work: HiBriefcase,
+  java: FaJava,
+  python: FaPython,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden="true"

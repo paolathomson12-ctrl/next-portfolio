@@ -60,6 +60,11 @@ export type ValidSkills =
   | "FastAPI"
   | "SQL"
   | "NoSQL"
+  | "NgRx"
+  | "Anaconda"
+  | "Pandas"
+  | "Tkinter"
+  | "Ruby on Rails"
   | "Framer Motion";
 
 export type ValidCategory =
