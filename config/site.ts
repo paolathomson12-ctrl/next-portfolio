@@ -24,4 +24,11 @@ export const siteConfig = {
     "Frontend Developer",
     "Tech Portfolio",
   ],
+  ogImage: "",
+  iconIco: "",
+  logoIcon: "",
+  links: {
+    twitter: "",
+    github: "",
+  },
 };
