@@ -48,9 +48,7 @@ export default function IndexPage() {
     "@type": "Person",
     name: siteConfig.authorName,
     url: siteConfig.url,
-    image: siteConfig.ogImage,
     jobTitle: "Software Engineer",
-    sameAs: [siteConfig.links.github, siteConfig.links.twitter],
   };
 
   // Structured data for website as a software application (template)
