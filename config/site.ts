@@ -1,10 +1,9 @@
 export const siteConfig = {
   name: "Paola Thomson - Software Engineer",
   authorName: "Paola Thomson",
-  username: "namanbarkiya",
-  description:
-    "Paola Thomson - Software Engineer",
-  url: "https://nbarkiya.xyz",
+  username: "paolaThomson",
+  description: "Paola Thomson - Software Engineer",
+  url: "https://paolathomson.com",
   keywords: [
     "Paola Thomson",
     "Software Engineer",
@@ -24,9 +23,9 @@ export const siteConfig = {
     "Frontend Developer",
     "Tech Portfolio",
   ],
-  ogImage: "",
-  iconIco: "",
-  logoIcon: "",
+  ogImage: "/ogImage.png",
+  iconIco: "/experience/coding_logo3.png",
+  logoIcon: "/experience/coding_logo3.png",
   links: {
     twitter: "",
     github: "",

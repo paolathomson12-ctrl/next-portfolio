@@ -33,10 +33,30 @@ import profileImg from "@/public/profile-img.jpeg";
 
 export const metadata: Metadata = {
   title: `${pagesConfig.home.metadata.title}`,
-  description:
-    "Paola Thomson - Software Engineer",
+  description: siteConfig.description,
   alternates: {
     canonical: siteConfig.url,
+  },
+  openGraph: {
+    title: siteConfig.name,
+    description: siteConfig.description,
+    url: siteConfig.url,
+    type: "website",
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 1200,
+        height: 630,
+        alt: siteConfig.name,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.name,
+    description: siteConfig.description,
+    creator: `@${siteConfig.username}`,
+    images: [siteConfig.ogImage],
   },
 };
 
@@ -266,7 +286,7 @@ export default function IndexPage() {
           </Link>
         </AnimatedText>
       </AnimatedSection> */}
-      {/* <AnimatedSection
+      <AnimatedSection
         direction="up"
         className="container space-y-6 py-10 my-14"
         id="blogs"
@@ -305,7 +325,7 @@ export default function IndexPage() {
             </Button>
           </Link>
         </AnimatedText>
-      </AnimatedSection> */}
+      </AnimatedSection>
       <AnimatedSection
         direction="up"
         className="container space-y-6 bg-muted py-10 my-14"
