@@ -17,7 +17,7 @@ export interface ExperienceInterface {
 export const experiences: ExperienceInterface[] = [
   {
     id: "Autos2",
-    position: "Software Engineer",
+    position: "Software Developer",
     company: "Auto and General",
     location: "Brisbane, Australia",
     startDate: new Date("2024-06-01"),
