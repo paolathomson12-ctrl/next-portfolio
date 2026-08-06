@@ -1,8 +1,6 @@
 # Allow all crawlers
 User-agent: *
 Allow: /
-Disallow: /profile-img.jpeg
-Disallow: /ogImage.png
 
 # Sitemap location
 Sitemap: https://paolathomson.com/sitemap.xml
