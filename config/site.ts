@@ -2,7 +2,8 @@ export const siteConfig = {
   name: "Paola Thomson - Software Engineer",
   authorName: "Paola Thomson",
   username: "paolaThomson",
-  description: "Paola Thomson - Software Engineer",
+  description:
+    "Paola Thomson is a Software Engineer in Brisbane building modern web, data, and AI products. Explore portfolio projects, technical writing, and experience.",
   url: "https://paolathomson.com",
   keywords: [
     "Paola Thomson",
