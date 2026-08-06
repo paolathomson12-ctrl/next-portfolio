@@ -8,7 +8,7 @@ const nextConfig = {
           {
             type: "query",
             key: "url",
-            value: ".*(profile-img|ogImage\\.png).*",
+            value: ".*(profile-photo|social-preview\\.png).*",
           },
         ],
         headers: [
@@ -16,13 +16,13 @@ const nextConfig = {
         ],
       },
       {
-        source: "/profile-img.jpeg",
+        source: "/profile-photo.jpeg",
         headers: [
           { key: "X-Robots-Tag", value: "noindex, noimageindex, noarchive" },
         ],
       },
       {
-        source: "/ogImage.png",
+        source: "/social-preview.png",
         headers: [
           { key: "X-Robots-Tag", value: "noindex, noimageindex, noarchive" },
         ],

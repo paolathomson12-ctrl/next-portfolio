@@ -29,7 +29,7 @@ import { siteConfig } from "@/config/site";
 import { featuredSkills } from "@/config/skills";
 import { getFeaturedBlogs } from "@/lib/blogs";
 import { cn } from "@/lib/utils";
-import profileImg from "@/public/profile-img.jpeg";
+import profileImg from "@/public/profile-photo.jpeg";
 
 export const metadata: Metadata = {
   title: `${pagesConfig.home.metadata.title}`,
