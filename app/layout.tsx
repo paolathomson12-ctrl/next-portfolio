@@ -79,7 +79,9 @@ export const metadata = {
     },
   },
   verification: {
-    google: process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION,
+    google:
+      process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION ||
+      "enoL9ebtqocSMLVe1b2CiwElSzH_IHPyp0Qfvh4v8oc",
   },
 };
 
