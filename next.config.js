@@ -3,6 +3,31 @@ const nextConfig = {
   async headers() {
     return [
       {
+        source: "/_next/image",
+        has: [
+          {
+            type: "query",
+            key: "url",
+            value: ".*(profile-img|ogImage\\.png).*",
+          },
+        ],
+        headers: [
+          { key: "X-Robots-Tag", value: "noindex, noimageindex, noarchive" },
+        ],
+      },
+      {
+        source: "/profile-img.jpeg",
+        headers: [
+          { key: "X-Robots-Tag", value: "noindex, noimageindex, noarchive" },
+        ],
+      },
+      {
+        source: "/ogImage.png",
+        headers: [
+          { key: "X-Robots-Tag", value: "noindex, noimageindex, noarchive" },
+        ],
+      },
+      {
         source: "/api/sb-contact",
         headers: [
           { key: "Access-Control-Allow-Credentials", value: "true" },
