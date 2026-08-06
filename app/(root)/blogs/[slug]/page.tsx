@@ -46,8 +46,6 @@ export async function generateMetadata({
         url: `${siteConfig.url}/blogs/${slug}`,
         siteName: siteConfig.name,
         type: "article",
-        publishedTime: post.date,
-        modifiedTime: post.date,
         authors: [siteConfig.authorName],
         tags: post.tags,
         images: [
@@ -105,8 +103,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     "@type": "BlogPosting",
     headline: post.title,
     description: post.description,
-    datePublished: isoDate,
-    dateModified: isoDate,
     author: {
       "@type": "Person",
       name: siteConfig.authorName,

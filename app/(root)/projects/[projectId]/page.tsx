@@ -27,6 +27,8 @@ export default async function Project({ params }: ProjectPageProps) {
     redirect("/projects");
   }
 
+  const projectStartDate = project.startDate.toISOString();
+
   return (
     <article className="container relative max-w-3xl py-6 lg:py-10">
       <Link
@@ -41,7 +43,7 @@ export default async function Project({ params }: ProjectPageProps) {
       </Link>
       <div>
         <time
-          dateTime={Date.now().toString()}
+          dateTime={projectStartDate}
           className="block text-sm text-muted-foreground"
         >
           {formatDateFromObj(project.startDate)}

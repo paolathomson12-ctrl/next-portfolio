@@ -72,7 +72,6 @@ export default function BlogsPage() {
         "@type": "BlogPosting",
         headline: blog.title,
         description: blog.description,
-        datePublished: blog.date,
         url: `${siteConfig.url}/blogs/${blog.slug}`,
         author: {
           "@type": "Person",
